@@ -30,9 +30,9 @@
     }
 
     let addrDong = '';
-    let arrayBox: HTMLDivElement;
 </script>
 <div class="wrap">
+    <small>지자체명을 같이 넣으면 검색이 더 용이합니다.<br>(예: 전주 효자)</small>
     <form>
         <div class="input-group">
             <input type="text" placeholder="동이름 입력" bind:value={addrDong}/>
@@ -69,6 +69,7 @@
         margin: 0 auto;
         padding: 20px 10px;
         position:relative;
+        text-align: center;
     }
     .wrap .cover {
         position: absolute;
@@ -97,7 +98,7 @@
         justify-content: center;
         align-items: center;
         gap:5px;
-        margin-top:30px;
+        margin-top:5px;
     }
     input {
         font-size: 1.25rem;
