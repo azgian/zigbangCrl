@@ -70,8 +70,8 @@ let addrDong = '';
 <div class="wrap">
     <form>
     <div class="input-group">
-            <input type="text" placeholder="동이름을 입력하세요" bind:value={addrDong}/>
-            <button type="submit" onclick={() => getDongArray(addrDong)}>동검색</button>
+            <input type="text" placeholder="동이름 입력" bind:value={addrDong}/>
+            <button type="submit" class="btn" onclick={() => getDongArray(addrDong)}>검색</button>
         </div>
     </form>
     <div>
@@ -121,7 +121,7 @@ let addrDong = '';
         justify-content: center;
         align-items: center;
         gap:5px;
-        margin-bottom:20px;
+        margin:30px 0;
     }
     .list {
         display: flex;
@@ -138,9 +138,10 @@ let addrDong = '';
     }
     input {
         font-size: 1.25rem;
+        line-height: 2rem;
         text-align: center;
     }
-    button {
-        font-size: 1.15rem;
+    .btn {
+        font-size: 1.45rem;
     }
 </style>
