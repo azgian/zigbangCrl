@@ -98,9 +98,8 @@ let addrDong = '';
 <style>
     .wrap {
         max-width:600px;
-        width:100%;
+        width:90%;
         margin: 0 auto;
-        background:#ddd;
         padding: 20px 10px;
         position:relative;
     }
